@@ -1,0 +1,134 @@
+.nav-bar {
+  background-color: #45484A;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav-bar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  padding-top: 12px;
+  height: 40px;
+  width: 50%;
+}
+
+.nav-bar a:hover {
+  background-color: #2A252E;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-bar {
+    position: fixed;
+    float: left;
+  }
+}
+
+.contact-bar {
+  background-color: #45484A;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.contact-bar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  width: 25%;
+}
+
+.contact-bar a:hover {
+  background-color: #2A252E;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-bar {
+    position: fixed;
+    float: right;
+  }
+}
+
+a[href*="github.com/"] {
+  background:url(https://github.com/favicon.ico) no-repeat left center;
+  padding: 20px 0px 20px;
+  text-decoration: none;
+  color: black;
+}
+
+a[href*="instagram.com/"] {
+  background:url(https://instagram.com/favicon.ico) no-repeat left center;
+  padding: 20px 0px 20px;
+  text-decoration: none;
+  color: black;
+}
+
+a[href*="twitter.com/"] {
+  background:url(https://twitter.com/favicon.ico) no-repeat left center;
+  padding: 20px 0px 20px;
+  text-decoration: none;
+  color: black;
+}
+
+a[href*="reddit.com/"] {
+  background:url(https://reddit.com/favicon.ico) no-repeat left center;
+  padding: 20px 0px 20px;
+  text-decoration: none;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  font-family: Anton;
+  font-size: 25px;
+}
+
+.pt1 {
+  /* grid-area: left; */
+  align-items: flex-start;
+}
+
+.pt2 {
+  /* grid-area: right; */
+  align-items: flex-end;
+}
+
+.projects {
+  background-color: #C19E6B;
+  margin: 20px 20px 60px;
+  /* display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 200px 200px;
+  grid-template-areas:
+    "left right"; */
+  padding-bottom: 40px;
+}
+
+.welcome-section {
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 50vh;
+  background-color: #FAE7B1;
+}
+
+.welcome-section .about-me {
+  width: 50%;
+}
+
+.welcome-section .currently {
+  width: 50%;
+  margin-left: 50%;
+}
