@@ -132,3 +132,11 @@ h2 {
   width: 50%;
   margin-left: 50%;
 }
+
+body {
+  background-color: inherit;
+}
+
+p {
+  color: black;
+}
