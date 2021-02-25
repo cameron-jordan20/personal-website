@@ -134,9 +134,11 @@ h2 {
 }
 
 body {
-  background-color: inherit;
+  background-color: #FAE7B1;
 }
 
 p {
   color: black;
+  margin-left: 5%;
+  margin-right: 5%;
 }
