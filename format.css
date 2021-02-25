@@ -95,24 +95,16 @@ h2 {
 }
 
 .pt1 {
-  /* grid-area: left; */
   align-items: flex-start;
 }
 
 .pt2 {
-  /* grid-area: right; */
   align-items: flex-end;
 }
 
 .projects {
   background-color: #C19E6B;
   margin: 20px 20px 60px;
-  /* display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 200px 200px;
-  grid-template-areas:
-    "left right"; */
   padding-bottom: 40px;
 }
 
@@ -139,7 +131,10 @@ body {
 
 .text {
   color: black;
-  margin-top: 45px;
+  margin-top: 40px;
   margin-left: 5%;
   margin-right: 5%;
+  text-align: center;
+  font-family: Anton;
+  font-size: 25px;
 }
