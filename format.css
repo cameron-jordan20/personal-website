@@ -29,6 +29,11 @@
     float: left;
     background-color: cyan;
   }
+  .contact-bar {
+    position: fixed;
+    float: right;
+    background-color: cyan;
+  }
 }
 
 .contact-bar {
@@ -52,14 +57,6 @@
 .contact-bar a:hover {
   background-color: #2A252E;
   color: white;
-}
-
-@media only screen and (max-width: 600px) {
-  .contact-bar {
-    position: fixed;
-    float: right;
-    background-color: cyan;
-  }
 }
 
 a[href*="github.com/"] {
