@@ -27,7 +27,7 @@
   .nav-bar {
     position: fixed;
     float: left;
-    background-color: grey;
+    background-color: cyan;
   }
 }
 
@@ -58,7 +58,7 @@
   .contact-bar {
     position: fixed;
     float: right;
-    background-color: grey;
+    background-color: cyan;
   }
 }
 
