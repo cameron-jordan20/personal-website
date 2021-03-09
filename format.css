@@ -93,14 +93,6 @@ h2 {
   font-size: 25px;
 }
 
-/* .pt1 {
-  align-items: flex-start;
-}
-
-.pt2 {
-  align-items: flex-end;
-} */
-
 .projects {
   background-color: #C19E6B;
   margin: 20px 20px 60px;
@@ -115,13 +107,17 @@ h2 {
   background-color: #FAE7B1;
 }
 
-.welcome-section .about-me {
-  width: 50%;
+img {
+  width: 100%;
 }
 
-.welcome-section .currently {
-  width: 50%;
-  margin-left: 50%;
+p {
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
 }
 
 body {
