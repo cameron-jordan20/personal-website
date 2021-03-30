@@ -61,3 +61,80 @@ margin: 5px;
   border-radius: 3px;
   font-family: 'Harrington', fantasy;
 }
+
+/* style icon list */
+.list-image {
+  margin: 0 auto;
+  padding: 20px;
+  width: 20%;
+  background: #DFE0D0;
+  list-style-type: none;
+  font-family: 'Harrington', fantasy;
+  font-size: 1.3em;
+  color: black;
+}
+
+.list-image li {
+  position: relative;
+  padding-left: 60px;
+  line-height: 300%;
+}
+
+.list-image li:before {
+  content: '';
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-image: url('alien.png');
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* style href icon list */
+.popular-sites {
+  margin: 0 auto;
+  padding: 20px;
+  width: 20%;
+  background: #6C5F62;
+  list-style-type: none;
+  font-family: 'Harrington', fantasy;
+  font-size: 1.3em;
+  color: black;
+}
+
+.popular-sites li {
+  position: relative;
+  padding-left: 60px;
+  line-height: 300%;
+}
+
+.popular-sites li a {
+  text-decoration: none;
+  color: gold;
+}
+
+.popular-sites li:before {
+  content: '';
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-image: url('link.png');
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #0f2377;
+}
