@@ -129,6 +129,50 @@ margin: 5px;
   transform: translateY(-50%);
 }
 
+/* style table */
+.table-simple {
+  margin: 0 auto;
+  padding: 20px;
+  width: 20%;
+}
+
+table, th,td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,td {
+  padding: 20px;
+  text-align: center;
+}
+
+caption {
+  caption-side: bottom;
+  text-align: center;
+  font-family: 'Harrington', fantasy;
+  font-weight: bold;
+  font-size: 1.3em;
+  color: black;
+}
+
+.table-simple th {
+  background-color: black;
+  color: white;
+}
+
+.table-simple tr:nth-child(even) {
+  background-color: #DFE0D0;
+}
+
+.table-simple tr:nth-child(odd) {
+  background-color: #6C5F62;
+}
+
+.table-simple tr:hover {
+  background-color: #506691;
+}
+
+/* style footer */
 footer {
   margin-top: 30px;
   text-align: center;
