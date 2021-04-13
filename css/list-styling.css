@@ -129,12 +129,7 @@ margin: 5px;
   transform: translateY(-50%);
 }
 
-/* style table */
-.table-simple {
-  margin: 0 auto;
-  padding: 20px;
-  width: 20%;
-}
+/* style tables */
 
 table, th,td {
   border: 1px solid black;
@@ -155,6 +150,12 @@ caption {
   color: black;
 }
 
+.table-simple {
+  margin: 0 auto;
+  padding: 20px;
+  width: 20%;
+}
+
 .table-simple th {
   background-color: black;
   color: white;
@@ -170,6 +171,60 @@ caption {
 
 .table-simple tr:hover {
   background-color: #506691;
+}
+
+.table1 {
+  margin: 0 auto;
+  background-color: #DFE0D0;
+}
+
+.table1:hover {
+  background-color: blue;
+  color: gold;
+}
+
+.table2 {
+  margin: 0 auto;
+  background-color: #6C5F62;
+}
+
+.table2:hover {
+  background-color: #506691;
+  color: white;
+}
+
+.head-body-foot {
+  margin: 0 auto;
+}
+
+.head-body-foot thead {
+  background-color: black;
+  color: white;
+}
+
+.head-body-foot thead:hover {
+  background-color: #506691;
+}
+
+.head-body-foot tbody {
+  color: rgb(182, 212, 182);
+  font-weight: bold;
+  background-color: #6C5F62;
+}
+
+.head-body-foot tbody:hover {
+  background-color: #acffe3;
+  color: black;
+}
+
+.head-body-foot tfoot {
+  color: black;
+  background-color: #DFE0D0;
+  font-weight:bold ;
+}
+
+.head-body-foot tfoot:hover {
+  background-color: gold;
 }
 
 /* style footer */
