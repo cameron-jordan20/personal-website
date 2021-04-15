@@ -227,6 +227,51 @@ caption {
   background-color: gold;
 }
 
+/* scrolling table */
+.scroll-bar {
+  margin: 0 auto;
+  overflow-x: auto;
+  width: 50%;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* table with image */
+.table-image {
+  margin: 0 auto;
+}
+
+/* generated table */
+.GeneratedTable {
+  margin: 0 auto;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.5);
+}
+
+table.GeneratedTable {
+  width: 50%;
+  background-color: #c5c9e7;
+  border-collapse: collapse;
+  border-width: 1px;
+  border-color: #000000;
+  border-style: solid;
+  color: #000000;
+}
+
+table.GeneratedTable td, table.GeneratedTable th {
+  border-width: 1px;
+  border-color: #000000;
+  border-style: solid;
+  padding: 5px;
+}
+
+table.GeneratedTable thead {
+  background-color: #4752f0;
+}
+
+table.GeneratedTable img {
+  height: 50px;
+  width: 50px;
+}
+
 /* style footer */
 footer {
   margin-top: 30px;
