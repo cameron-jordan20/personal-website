@@ -13,6 +13,10 @@ h3 {
   position: relative;
 }
 
+.mySlides {
+  border-radius: 99px;
+}
+
 .slider-button {
   border: none;
   display: inline-block;
