@@ -3,6 +3,8 @@
   <head>
     <link rel="stylesheet" href="css/format.css" media="screen">
     <link rel="stylesheet" href="css/list-styling.css" media="screen">
+    <link rel="stylesheet" href="css/slider.css">
+
     <meta charset="utf-8">
     <title>About</title>
 
@@ -26,6 +28,19 @@
         the link to my personal Github, which hosts the most up-to-date versions of my current and past projects.
       </p>
     </div>
+
+    <h1>Image Slider</h1>
+    <div class="div-content">
+      <img class="mySlides" src="images/img4.jpg" style="width:100%">
+      <img class="mySlides" src="images/img2.jpg" style="width:100%">
+      <img class="mySlides" src="images/img3.jpg" style="width:100%">
+      <img class="mySlides" src="images/img1.jpg" style="width:100%">
+      <img class="mySlides" src="images/img5.jpg" style="width:100%">
+
+      <button class="slider-button display-left" onclick="changeImage(-1)">&#129172;</button>
+      <button class="slider-button display-right" onclick="changeImage(1)">&#129174;</button>
+    </div>
+    <h3>New York Images</h3>
 
     <h1>Lists</h1>
     <!--Unordered list start-->
@@ -362,5 +377,7 @@
         Creaticca Creative Agency</a> from <a href="https://www.flaticon.com/" title="Flaticon">Flaticon</a>
       </div>
     </footer>
+
+  <script src="slider.js"></script>
   </body>
 </html>

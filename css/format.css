@@ -1,5 +1,11 @@
-.nav-bar{
-  background-color:#45484A;overflow:hidden;position:fixed;width:100%;top:0;left:0
+.nav-bar {
+  z-index: 10;
+  background-color:#45484A;
+  overflow:hidden;
+  position:fixed;
+  width:100%;
+  top:0;
+  left:0
   }
 .nav-bar a{
   float:left;color:#f2f2f2;text-align:center;text-decoration:none;font-size:16px;padding-top:12px;height:40px;width:25%
@@ -16,7 +22,7 @@
     }
   }
 
-  
+
 .contact-bar{
   background-color:#45484A;overflow:hidden;position:fixed;width:100%;bottom:0;left:0
   }
