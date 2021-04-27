@@ -15,10 +15,10 @@
   }
 @media screen and (max-width: 600px){
   .nav-bar{
-    position:fixed;float:left;background-color:cyan
+    position:fixed;float:left;background-color:#0d467a;
     }
     .contact-bar{
-      position:fixed;float:right;background-color:cyan
+      position:fixed;float:right;background-color:#0d467a;
     }
   }
 
