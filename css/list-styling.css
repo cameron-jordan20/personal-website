@@ -114,7 +114,7 @@ color: white;
 
 .popular-sites li a {
   text-decoration: none;
-  color: gold;
+  color: white;
 }
 
 .popular-sites li:before {
@@ -257,9 +257,18 @@ table.GeneratedTable {
   border-color: #000000;
   border-style: solid;
   color: #000000;
+  color: white;
 }
 
-table.GeneratedTable td, table.GeneratedTable th {
+table.GeneratedTable td{
+  border-width: 1px;
+  border-color: #000000;
+  border-style: solid;
+  padding: 5px;
+  color: black;
+}
+
+table.GeneratedTable th {
   border-width: 1px;
   border-color: #000000;
   border-style: solid;
